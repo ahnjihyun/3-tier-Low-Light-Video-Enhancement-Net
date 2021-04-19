@@ -7,14 +7,18 @@ OpenCV4와 KinD Network를 활용하여 저조도 이미지뿐만 아니라 저�
 
 <br><br>
 
-* prepare
-1) 모델의 입력인 [저조도 test 영상]은 "test" 폴더에 저장합니다 <br>
-2) test 영상을 우클릭해 [속성]을 확인하여 영상의 size, FPS를 확인한 후 3-tier_network.py 코드의 해당 부분을 수정합니다 <br>
+* prepare <br>
+> 1) 모델의 입력인 [저조도 test 영상]은 "test" 폴더에 저장합니다 
+>
+> 2) test 영상을 우클릭해 [속성]을 확인하여 영상의 size, FPS를 확인한 후 3-tier_network.py 코드의 해당 부분을 수정합니다 
+<br>
 
 * Model Summary <br>
-1-tier) video to images(frames) : OpenCV4 -> 분할된 images(frames)는 "frame_pre" 폴더에 저장됩니다 <br>
-2-tier) LOL images(frames) Enhancement Algorithm : KinD Network -> 개선된 images(frames)는 "frame_post" 폴더에 저장됩니다 <br>
-3-tier) images(frames) to video : OpenCV4 -> 모델의 최종 결과물은 "result" 폴더에 저장됩니다 <br>
+> 1-tier) video to images(frames) : OpenCV4 -> 분할된 images(frames)는 "frame_pre" 폴더에 저장됩니다 
+>
+> 2-tier) LOL images(frames) Enhancement Algorithm : KinD Network -> 개선된 images(frames)는 "frame_post" 폴더에 저장됩니다 
+>
+> 3-tier) images(frames) to video : OpenCV4 -> 모델의 최종 결과물은 "result" 폴더에 저장됩니다 
 <br><br>
 
 * 요구사항
