@@ -157,6 +157,6 @@ for idx in range(ifilesl):
     eval_img_name.append(name) #['0']
     
     image_to_video(ifiles, outpath, fps, ifilesl)
-    #ifiles[idx] == C:/Users/96dks/Desktop/KinD/frame_post\0.png
+    #ifiles[idx] == /KinD/frame_post\0.png
 
 print(time.strftime('%Y-%m-%d %p %I:%M:%S', time.localtime(time.time())))
