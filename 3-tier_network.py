@@ -140,9 +140,9 @@ print(time.strftime('%Y-%m-%d %p %I:%M:%S', time.localtime(time.time())))
 
 ###'./frame_post/'에 저장된 이미지 to 동영상
 
-inputpath = 'C:/Users/96dks/Desktop/KinD/frame_post/*.png'
+inputpath = '/KinD/frame_post/*.png'
 outpath =  './result/filename.mp4' # .avi 확장자도 가능
-fps = 30
+fps = 30  
 
 eval_low_data = []
 eval_img_name =[]
